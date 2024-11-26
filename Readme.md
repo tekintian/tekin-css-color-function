@@ -1,16 +1,25 @@
 
-# css-color-function
-  
+# tekin-css-color-function
+
+tekin-css-color-function 来源于tekin-css-color-function
+
+升级最新版本的依赖,解决无法运行问题!
+
+原来的版本太旧, 很多东西无法使用!
+
+
   A parser and converter for [Tab Atkins](https://github.com/tabatkins)'s [proposed color function](http://dev.w3.org/csswg/css-color/#modifying-colors) in CSS.
+
+
 
 ## Installation
 
-    $ npm install css-color-function
+    $ npm install tekin-css-color-function
 
 ## Example
 
 ```js
-var color = require('css-color-function');
+var color = require('tekin-css-color-function');
 
 color.convert('color(red tint(50%))');
 // "rgb(255, 128, 128)"
